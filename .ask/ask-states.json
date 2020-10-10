@@ -1,0 +1,30 @@
+{
+  "askcliStatesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillInfrastructure": {
+        "@ask-cli/lambda-deployer": {
+          "deployState": {
+            "default": {
+              "iamRole": "arn:aws:iam::023972248338:role/ask-lambda-TrainStopGame-1602291984669",
+              "lambda": {
+                "arn": "arn:aws:lambda:us-east-1:023972248338:function:ask-trainstopgame-default-default-1602291986310",
+                "lastModified": "2020-10-10T09:47:00.171+0000",
+                "revisionId": "102d5c9e-9aeb-40b6-b541-a582589c2d32"
+              }
+            }
+          }
+        }
+      },
+      "skillId": "amzn1.ask.skill.0521fc9c-3f25-479e-9885-0d7764f1fe75",
+      "skillMetadata": {
+        "lastDeployHash": "0IzRAKAV3UwKnPfBtyVmY+h2NTY="
+      },
+      "code": {
+        "default": {
+          "lastDeployHash": "95P6GaFgzKOMOHs5x8SipQhb3Jo="
+        }
+      }
+    }
+  }
+}

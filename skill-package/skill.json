@@ -1,0 +1,42 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "アレクサ、電車ゲームを開いて",
+            "アレクサ、電車ゲームを起動して",
+            "アレクサ、電車ゲーム"
+          ],
+          "name": "電車ゲーム",
+          "keywords": [
+            "ゲーム",
+            "反射神経",
+            "タッチ"
+          ],
+          "description": "Sample Full Description"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "GAMES",
+      "distributionCountries": [
+        "JP"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "interfaces": [
+          {
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ],
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:023972248338:function:ask-trainstopgame-default-default-1602291986310"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
